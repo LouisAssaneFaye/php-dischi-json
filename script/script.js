@@ -4,6 +4,7 @@ createApp({
     data(){
         return{
             apiUrl:'./server.php',
+            items:[],
         }
     },
     methods: {
@@ -11,8 +12,9 @@ createApp({
             axios.get('/user', {
                 params: {}
               })
-              .then(function (response) {
+              .then((response)=> {
                 console.log(response);
+                this.items=response
               })
               .catch(function (error) {
                 console.log(error);
