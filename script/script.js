@@ -9,12 +9,12 @@ createApp({
     },
     methods: {
         getItems(){
-            axios.get('/user', {
+            axios.get(this.apiUrl, {
                 params: {}
               })
               .then((response)=> {
                 console.log(response);
-                this.items=response
+                this.items=response;
               })
               .catch(function (error) {
                 console.log(error);

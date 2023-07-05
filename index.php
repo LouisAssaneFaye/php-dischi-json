@@ -17,19 +17,19 @@
         </header>
         <div class="container">
             <div class="cards">
-                <div class="card">
+                <div class="card" v-for="item in items">
                     <div class="card-up">
-                        <img src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" alt="img">                   
+                        <img :src="item.poster" alt="img">                   
                     </div>
                     <div class="card-down">
                         <h3>
-                            New Jersey
+                            {{item.title}}
                         </h3>
                         <span>
-                            Bon Jovi
+                            {{item.author}}
                         </span>
                         <span>
-                            1988
+                            {{item.year}}
                         </span>
                     </div>
                 </div>
