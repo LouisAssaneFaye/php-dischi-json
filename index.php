@@ -15,6 +15,26 @@
         <header class="header">
            <i class="fa-brands fa-spotify"></i>
         </header>
+        <div class="container">
+            <div class="cards">
+                <div class="card">
+                    <div class="card-up">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" alt="img">                   
+                    </div>
+                    <div class="card-down">
+                        <h3>
+                            New Jersey
+                        </h3>
+                        <span>
+                            Bon Jovi
+                        </span>
+                        <span>
+                            1988
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
     
