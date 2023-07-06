@@ -14,7 +14,7 @@ createApp({
               })
               .then((response)=> {
                 console.log(response);
-                this.items=response;
+                this.items=response.data;
               })
               .catch(function (error) {
                 console.log(error);

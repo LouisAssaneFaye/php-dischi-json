@@ -17,7 +17,7 @@
         </header>
         <div class="container">
             <div class="cards">
-                <div class="card" v-for="item in items">
+                <div class="card" v-for="item in items ">
                     <div class="card-up">
                         <img :src="item.poster" alt="img">                   
                     </div>
